@@ -1,0 +1,13 @@
+# Python dependencies for the measles lineage toolkit
+# Standard scientific Python; tested on Python 3.10.
+numpy>=1.21
+scipy>=1.7
+
+# Optional (only for the plotting utilities, if added):
+# matplotlib>=3.5
+
+# External command-line tools required for some steps (NOT pip-installable):
+#   - BEAST2 (provides bin/loganalyser)  -> for beast_tools/analyze_ess.py
+#   - mafft, raxml-ng                    -> for building real trees (not included)
+#   - blastn / makeblastdb               -> for DSId/N450 typing (not included)
+# The synthetic demo (data_synthetic/) runs with only numpy + scipy.

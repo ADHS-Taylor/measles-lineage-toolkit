@@ -1,0 +1,65 @@
+# ============================================================
+# DATA SAFETY: block all real / potentially sensitive data.
+# Only the synthetic demo data under data_synthetic/ is tracked.
+# ============================================================
+
+# Sequence data
+*.fasta
+*.fa
+*.fna
+*.fas
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+
+# Alignments / trees / phylo outputs from real data
+*.nwk
+*.nexus
+*.treefile
+*.aligned.fasta
+*.snps.tsv
+
+# Tabular data that may contain case-level or identifiable info
+*.csv
+*.tsv
+*.xlsx
+
+# BEAST / phylodynamic run artifacts
+*.log
+*.trees
+*.traj
+*.state
+*.state.new
+*.done
+beast_runs/
+iqtree_runs/
+*.tgz
+*.tar.gz
+
+# Line lists / metadata / crosswalks (NEVER commit)
+*linelist*
+*line_list*
+*metadata*
+*msls*
+*dsids*
+*_meta*
+
+# EXCEPTION: keep the synthetic demo data (explicitly whitelisted)
+!data_synthetic/metadata.csv
+!data_synthetic/typing.csv
+!data_synthetic/linelist.csv
+!data_synthetic/snp_matrix.tsv
+!data_synthetic/tree.nwk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp
