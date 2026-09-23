@@ -22,7 +22,7 @@ Example:
         --run-name window_01 \\
         --outdir beast_runs/
 
-Author: Taylor
+Author: Taylor Martins
 """
 
 import argparse

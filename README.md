@@ -4,7 +4,7 @@ Reusable, deidentified code for analyzing within-outbreak measles whole-genome
 sequences: genotype sub-lineage structure, transmission-lineage / import-vs-local
 questions, and case-based reproduction number (Rt) estimation.
 
-**Author:** Taylor
+**Author:** Taylor Martins
 
 > **No real data is included.** This repository contains code and a fully
 > **synthetic** demonstration dataset only. All identifiers, dates, regions, and
@@ -153,7 +153,7 @@ solely to demonstrate the code.
 ## License
 
 Licensed under the Apache License, Version 2.0 — see [`LICENSE`](LICENSE).
-Copyright 2026 Taylor.
+Copyright 2026 Taylor Martins.
 
 ## Citation / method references
 
